@@ -1,0 +1,15 @@
+java is not complete object based programming lang
+RED BLACK TREE:
+if tree is empty create new node as root node in color in black.
+if the tree is not empty create new node as leaf node in color red.
+if parent of new nodes is black then black.
+if parent of new node is red the check the colors of parent sibling of new node ..{
+    a.if color is black or null node is parent the do suitable color 
+    b.if color is red the color and also check if parents,parent of new node is not root node then red color it and recheck..
+}
+rules {
+    1.root is black
+    2.adjust should not be red - red color
+    3.black path should be equal
+
+}
